@@ -4,7 +4,7 @@
 [![français](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/ulrich-sun/projet-esgi/blob/main/enonce-fr.md)
 
 
-# Tips
+# Conseils
 
 - Pour travailler plus efficacement, commencez par forker ce dépôt.
 - Clonez votre fork sur votre serveur.
@@ -18,3 +18,11 @@
     si vous etes sur CMD alors c'est set SCRIPT_NAME="k3s.sh"
     si vous etes sur Powershell alors c'est $env:SCRIPT_NAME="k3s.sh"
     Une fois la variable configurer vous lancez la commande vagrant up
+
+# Tips
+- To work more efficiently, start by forking this repository.
+- Clone your fork to your server.
+- Create the necessary working folders and files.
+- Use Git workflows to back up all your work to your GitHub repository.
+- Your GitHub repository can serve as a portfolio for some, so it’s important to structure it well.
+    I am providing a Vagrant stack in the stack folder. To launch this stack, you will need VirtualBox version 7.0.20 and Vagrant version 2.4.1. You should navigate to the stack folder. Depending on your working terminal in Windows, you need to create a variable for the script choice. If you are using CMD, then it's set SCRIPT_NAME="k3s.sh". If you are using PowerShell, then it's $env:SCRIPT_NAME="k3s.sh". Once the variable is configured, you run the command vagrant up.
