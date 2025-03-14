@@ -30,6 +30,4 @@ NB: k3s est l'un des scripts disponible , vous pouvez allez sur du minikube et d
     I am providing a Vagrant stack in the stack folder. To launch this stack, you will need VirtualBox version 7.0.20 and Vagrant version 2.4.1. You should navigate to the stack folder. Depending on your working terminal in Windows, you need to create a variable for the script choice. If you are using **CMD**, then it's **set SCRIPT_NAME="k3s.sh"**. If you are using **Powershell**, then it's **$env:SCRIPT_NAME="k3s.sh"**.If your are using linux terminal then it's **export SCRIPT_NAME="k3s.sh"**. Once the variable is configured, you run the command vagrant up.
 NB: k3s is one of the scripts availabale, you can go to Minikube and in htis case change nothing
 
-<p align="center">
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-CjKFk4NY9yXiR1oheHsFR4YYn4HcD_0A6fgd11tHcT3p1U2RKXvIs6HflkvuLOOUzFxzxYCjDno2f1p6_q31dDE9AaUoEx1pi0Fs9ApJG2czL-88xrx3XO-oEP5ZXXsyXw0GKjA2W0A5q1Bk979SB1M?key=mLqAl_ccMoG4hHcRzSYKpw)**
-</p>
