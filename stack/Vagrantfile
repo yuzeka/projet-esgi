@@ -5,7 +5,7 @@
 #   + On Linux  => export ENABLE_ZSH="true"
 
 # Définition du nom du script
-script_name = ENV['SCRIPT_NAME'] || "install_minikube.sh"
+script_name = ENV['SCRIPT_NAME'] || "minikube.sh"
 
 Vagrant.configure("2") do |config|
     # Define Minikube VM
