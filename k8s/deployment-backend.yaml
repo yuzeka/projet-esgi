@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paymybuddy-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: paymybuddy-backend
+  template:
+    metadata:
+      labels:
+        app: paymybuddy-backend
+    spec:
+      containers:
+        - name: backend
+          image: yuzekas/paymybuddy-backend:latest
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: "jdbc:mysql://paymybuddy-db:3306/db_paymybuddy"
+            - name: SPRING_DATASOURCE_USERNAME
+              value: "paymybuddy"
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: "paymybuddy"
+          ports:
+            - containerPort: 8080
